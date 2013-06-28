@@ -1,15 +1,12 @@
-define(['appModule'], function(app)
-{
-    app.lazy.controller('HomeViewController',
-    [
-        '$scope',
+app.lazy.controller('HomeViewController',
+[
+    '$scope',
 
-        function($scope)
+    function($scope)
+    {
+        $scope.page =
         {
-            $scope.page =
-            {
-                heading: 'Welcome'
-            };
-        }
-    ]);
-});
+            heading: 'Welcome'
+        };
+    }
+]);

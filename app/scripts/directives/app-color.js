@@ -1,13 +1,10 @@
-define(['appModule'], function(app)
-{
-    app.lazy.directive('appColor',
-    [
-        function()
+app.lazy.directive('appColor',
+[
+    function()
+    {
+        return function(scope, $element, attrs)
         {
-            return function(scope, $element, attrs)
-            {
-                $element.css({'color': attrs.appColor});
-            }
+            $element.css({'color': attrs.appColor});
         }
-    ])
-});
+    }
+])

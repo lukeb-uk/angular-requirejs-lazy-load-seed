@@ -1,15 +1,12 @@
-define(['appModule'], function(app)
-{
-    app.lazy.controller('ContactViewController',
-    [
-        '$scope',
+app.lazy.controller('ContactViewController',
+[
+    '$scope',
 
-        function($scope)
+    function($scope)
+    {
+        $scope.page =
         {
-            $scope.page =
-            {
-                heading: 'Contact Us'
-            };
-        }
-    ]);
-});
+            heading: 'Contact Us'
+        };
+    }
+]);

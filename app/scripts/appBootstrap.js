@@ -3,6 +3,8 @@ require.config({
     paths: {}
 });
 
+var app = {'lazy': angular.module('lazyOverride',[])};
+
 require
 (
     [
@@ -10,6 +12,6 @@ require
     ],
     function(app)
     {
-        angular.bootstrap(document, ['app']);
+        angular.bootstrap(document, ['lazyOverride','app']);
     }
 );
