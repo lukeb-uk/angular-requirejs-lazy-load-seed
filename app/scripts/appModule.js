@@ -1,6 +1,6 @@
 define(['appRoutes','services/dependencyResolverFor'], function(config, dependencyResolverFor)
 {
-    var app = angular.module('app', []);
+    app = angular.module('app', ['lazyOverride']);
 
     app.config(
     [
