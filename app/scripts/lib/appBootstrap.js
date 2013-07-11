@@ -8,7 +8,7 @@ var app = {'lazy': angular.module('lazyOverride',[])};
 require
 (
     [
-        'appModule'
+        'lib/appModule'
     ],
     function(app)
     {

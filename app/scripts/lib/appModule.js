@@ -1,4 +1,4 @@
-define(['appRoutes','services/dependencyResolverFor'], function(config, dependencyResolverFor)
+define(['lib/appRoutes','lib/services/dependencyResolverFor'], function(config, dependencyResolverFor)
 {
     app = angular.module('app', ['lazyOverride']);
 
@@ -28,7 +28,7 @@ define(['appRoutes','services/dependencyResolverFor'], function(config, dependen
             {
                 angular.forEach(config.routes, function(route, path)
                 {
-                    $routeProvider.when(path, {templateUrl:route.templateUrl, resolve:dependencyResolverFor(route.dependencies)});
+                    $routeProvider.when(path, {templateUrl:route.templateUrl, resolve:dependencyResolverFor(route.module)});
                 });
             }
 

@@ -1,6 +1,6 @@
 define([], function()
 {
-    return function(dependencies)
+    return function(module)
     {
         var definition =
         {
@@ -8,7 +8,7 @@ define([], function()
             {
                 var deferred = $q.defer();
 
-                require(dependencies, function()
+                require([module+"/module"], function()
                 {
                     $rootScope.$apply(function()
                     {
