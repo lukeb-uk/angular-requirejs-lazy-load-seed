@@ -1,7 +1,6 @@
 angular-requirejs-lazy-load-seed
 =====================================
-A demonstration of lazy loading in [AngularJS](http://angularjs.org/) using [Asynchronous Module Definitions (AMD)](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition) with [RequireJS](http://requirejs.org/).
-This sample application was created to accompany the blog post entitled '[Lazy Loading In AngularJS](http://ify.io/lazy-loading-in-angularjs/)'.
+This project is an application skeleton for an [AngularJS](http://angularjs.org/) app using [RequireJS](http://requirejs.org/) for lazy loading. It is a fork of the [example](https://github.com/ifyio/angularjs-lazy-loading-with-requirejs) by ifyio that was created to accompany the blog post entitled '[Lazy Loading In AngularJS](http://ify.io/lazy-loading-in-angularjs/)'.
 
 ## How it works
 Simple specify your routes along with its lazy dependencies in `app/scripts/appRoutes.js` 
