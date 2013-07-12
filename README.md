@@ -1,4 +1,4 @@
-angularjs-lazy-loading-with-requirejs
+angular-requirejs-lazy-load-seed
 =====================================
 A demonstration of lazy loading in [AngularJS](http://angularjs.org/) using [Asynchronous Module Definitions (AMD)](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition) with [RequireJS](http://requirejs.org/).
 This sample application was created to accompany the blog post entitled '[Lazy Loading In AngularJS](http://ify.io/lazy-loading-in-angularjs/)'.
