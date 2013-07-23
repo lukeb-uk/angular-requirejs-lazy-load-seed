@@ -13,7 +13,7 @@ Within /scripts/lib directory you can store re-usable components that can then b
 
 ## How to run the demo
 
-Either serve the 'app' folder of this repo up with your web server or
+A copy of the demo is available here: [http://ng-lazy.lukeb.co.uk/](http://ng-lazy.lukeb.co.uk/). Alternatively, either serve the 'app' folder of this repo up with your web server or
 
 * Install node.js
 * Run 'npm install' from within the root project directory to install relevant dependencies
