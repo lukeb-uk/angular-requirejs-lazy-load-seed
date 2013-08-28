@@ -32,9 +32,9 @@ define(['lib/appRoutes','lib/services/dependencyResolverFor'], function(config, 
                 });
             }
 
-            if(config.defaultRoutePaths !== undefined)
+            if(config.defaultRoutePath !== undefined)
             {
-                $routeProvider.otherwise({redirectTo:config.defaultRoutePaths});
+                $routeProvider.otherwise({redirectTo:config.defaultRoutePath});
             }
         }
     ]);
