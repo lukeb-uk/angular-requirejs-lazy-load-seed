@@ -7,4 +7,4 @@ app.lazy.directive('appColor',
             $element.css({'color': attrs.appColor});
         }
     }
-])
+]);
